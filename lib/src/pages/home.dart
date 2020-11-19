@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
 
   AppBar buildAppBar() {
     return AppBar(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.blue,
       elevation: 0,
       leading: IconButton(
         icon: SvgPicture.asset("assets/icons/back.svg"),
@@ -27,7 +27,8 @@ class Home extends StatelessWidget {
           icon: SvgPicture.asset(
             "assets/icons/search.svg",
             // By default our  icon color is white
-            color: kTextColor,
+            //color: kTextColor,
+            color: Colors.white,
           ),
           onPressed: () {},
         ),
@@ -35,7 +36,8 @@ class Home extends StatelessWidget {
           icon: SvgPicture.asset(
             "assets/icons/cart.svg",
             // By default our  icon color is white
-            color: kTextColor,
+            //color: kTextColor,
+            color: Colors.white,
           ),
           onPressed: () {},
         ),
